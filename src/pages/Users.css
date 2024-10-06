@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    /* font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal; */
+    
+}
+table tr:first-child{
+      font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal; 
+}
+table tr{
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal; 
+}
+.user_table{
+    width:90%;margin:0 auto;border:2px solid geay;
+}
+@media (max-width:768px){
+    .user_table{
+        width:200px;
+        padding: 0px;
+    }
+}

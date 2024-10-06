@@ -6,14 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.contents{
+  position:relative;top:110px;padding:30px;
+}
+/* .contents1{
+  position:relative;top:70px;padding:30px;
+} */
+.navlink{
+  text-decoration: none !important;
+  color:red !important;
+  font-family: "Playfair Display", serif;
+ 
+  font-weight: 300;
+  font-size: 15px;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +36,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;

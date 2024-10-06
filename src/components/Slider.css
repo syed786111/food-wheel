@@ -1,0 +1,29 @@
+.slide-text{
+    z-index: 2000;text-align: left;color:blue;
+        font-size: 50px;position:relative;top:200px;font-weight: 900;
+        
+        padding-left:50px;
+
+         
+}
+.slide-img{
+       
+        width: 100%;
+        height: 600px;
+        position: relative;
+        top: 0px;
+      
+}
+@media (max-width:768px){
+    .slide-img{
+        height: 300px;
+    }
+    .slide-text{
+        
+            font-size: 30px;font-weight: 900;
+            
+            padding-left: 20px;
+    
+             
+    }
+}
